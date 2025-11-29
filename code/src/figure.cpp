@@ -90,7 +90,7 @@ bool Figure::operator==(const Figure& figure) const {
 bool Figure::operator!=(const Figure& figure) const {
     return !(*this == figure);
 }
-
+// Шнурк/Гаусс
 Figure::operator double() const {
     double x_y_sum = 0.0, y_x_sum = 0.0;
 
