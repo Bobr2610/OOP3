@@ -63,7 +63,6 @@ Figure& Figure::operator=(const Figure& figure) {
     return *this;
 }
 
-Figure& Figure::operator=(Figure&& figure) noexcept {
     if (this == &figure) {
         return *this;
     }
